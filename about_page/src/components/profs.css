@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.pfull{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.image1{
+    display: block;
+    border-radius: 6px;
+    filter: brightness(25%);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* width: 196px;
+    height: 196px; */
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+}
+.image2{
+    display: block;
+    border-radius: 6px;
+    /* width: 196px;
+    height: 196px; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+}
+.psmall{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px 0px 35px;
+    color:#FFFFFF;
+    font-family: 'Poppins';
+    height: 50px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 0;
+    margin-right: 70px;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #5624D0 0%, #DBCCFF 91.8%);
+}
+.profprops{
+    display: flex;
+    margin-top: 40px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    align-self: center;
+}
+.pdata1{
+    position: relative;
+    top: -100px;
+    left: 20px;
+    width: 156px;
+    height: 53px;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 9.5px;
+    line-height: 10px;
+    /* or 17px */
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.pdata2{
+    display: none;
+}
+.pprop1{
+    width: 196px;
+    height: 196px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* background: linear-gradient(0deg, #5624D0, #5624D0); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+.pprop2{
+    width: 196px;
+    height: 196px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* background: linear-gradient(0deg, #5624D0, #5624D0); */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 6px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.tfull{
+    display: flex;
+    flex-direction: column;
+}
+.tsmall{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px 0px 35px;
+    color:#FFFFFF;
+    font-family: 'Poppins';
+    height: 50px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-right: 70px;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #5624D0 0%, #DBCCFF 91.8%);
+}
+.tdata{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    width: 156px;
+    height: 53px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 112%;
+    /* or 17px */
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.teamprops{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    align-self: center;
+}
+.tprop{
+    width: 179px;
+    height: 160px;
+    margin-right: 20px;
+    margin-left: 10px;
+    background: linear-gradient(0deg, #5624D0, #5624D0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
